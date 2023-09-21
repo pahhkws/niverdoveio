@@ -1,21 +1,28 @@
-git clone (https://github.com/pahhkws/niverdoveio)
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="quiz-container">
-        <h1>Quiz</h1>
-        <div id="question-container"></div>
-        <button id="next-button" onclick="nextQuestion()">Próxima Pergunta</button>
-        <div id="score-container">Pontuação: <span id="score">0</span></div>
+
+  <h2>QUIZ APP</h2>
+  <main>
+    <div class="content">
+      <span class="spnQtd"></span>
+      <span class="question"></span>
+      <div class="answers"></div>
     </div>
-    <script src="script.js"></script>
+    <div class="finish">
+      <span></span>
+      <button>Reiniciar</button>
+    </div>
+  </main>
+  
+  <script src="script.js" type="module"></script>
 </body>
 </html>
-git add 
-git commit -m "quantas lojas foram ganhas?"
