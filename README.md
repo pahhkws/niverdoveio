@@ -18,4 +18,4 @@ git clone (https://github.com/pahhkws/niverdoveio)
 </body>
 </html>
 git add 
-git commit -m "Adicionei os arquivos do meu site de quiz"
+git commit -m "quantas lojas foram ganhas?"
